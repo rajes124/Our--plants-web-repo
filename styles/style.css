@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-serif-normal {
+   font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+    body {
+      margin: 0;
+      
+      background-color: #f4f7ff;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+      background-color: #f4f7ff;
+    
+    }
+
+    
+    .logo-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo-icon {
+      width: 25px;
+      height: 25px;
+      background-color: orange;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    .logo-text {
+      font-size: 24px;
+      color: #db5c65;
+      font-weight: 600;
+      font-family: 'Georgia', serif;
+    }
+
+  
+    .menu {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .menu a {
+      text-decoration: none;
+      color: #333;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    .menu a:hover {
+      color: #000;
+    }
+
+    .menu .active {
+      font-weight: bold;
+      color: #252432;
+    }
+
+    /* Cart section */
+    .cart {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 14px;
+      color: #333;
+    }
+
+    img{
+      width: 20px;
+    }
+    .color-item{
+      color: #b1b1b1;
+      
+    }
