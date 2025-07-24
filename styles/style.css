@@ -236,3 +236,161 @@ ul li {
 .fort-night{
   margin-top: 180px;
 }
+
+.duration{
+margin-top: 133px ;
+
+}
+
+/* latest deals ar files gulo*/
+
+  .dog-cat {
+      display: flex;
+      gap: 20px;
+    }
+
+    .left-column {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 30%;
+    }
+
+    .right-column {
+      width: 70%;
+    }
+
+    .banner {
+      position: relative;
+      background-size: cover;
+      background-position: center;
+      border-radius: 15px;
+      height: 180px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .banner.large {
+      height: 380px;
+    }
+
+    .banner-fleg {
+      position: relative;
+      z-index: 1;
+    }
+
+    .banner::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: rgba(0, 0, 0, 0.4); 
+      border-radius: 20px;
+      z-index: 0;
+    }
+
+    .banner h2 {
+      font-size: 25px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .banner a {
+      
+      color: #FFFFFF;
+      padding: 6px 12px;
+      font-size: 20px;
+      border-radius: 5px;
+      font-weight: bold;
+      
+    }
+
+    .banner a:hover {
+      background-color: #db5c65;
+    }
+/*input write email place*/
+
+    /*footer section*/
+
+
+        .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 60px 80px;
+      background-color: #f5f8ff;
+      color: #535353;
+      flex-wrap: wrap;
+    }
+
+    .footer .logo-area {
+      flex: 1;
+      min-width: 200px;
+    }
+
+    .footer .logo-area img {
+      width: 80px;
+      margin-bottom: 20px;
+    }
+
+    .footer .logo-area p {
+      max-width: 300px;
+      font-size: 20px;
+      color: #666;
+
+    }
+
+    .footer .links {
+      flex: 2;
+      display: flex;
+      justify-content: center;
+      gap: 80px;
+      flex-wrap: wrap;
+    }
+
+    .footer .links ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer .links ul li {
+      margin-bottom: 12px;
+      font-size: 15px;
+      color: #4a4a4a;
+      cursor: pointer;
+    }
+
+    .footer .social {
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-start;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .footer .social img {
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+ 
+    }
+
+    .footer .social img:hover {
+      transform: scale(1.1);
+    }
+
+    @media (max-width: 768px) {
+      .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+      }
+
+      .footer .social {
+        justify-content: center;
+      }
+    }
